@@ -1,0 +1,29 @@
+#viewDetailsRoot {
+    color: rgb(0, 0, 0);
+    /* text-align: center; */
+   
+}
+#viewDetailsRoot #VDTable{
+    margin-left:50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    text-align: start;
+    background-color: #fff;
+    border: 3px solid royalblue;
+    
+    border-collapse: separate;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.allRows{
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.leftColumn{
+    border: 1px solid black
+}
+
+.rightColumn{
+    border: 1px solid black
+}

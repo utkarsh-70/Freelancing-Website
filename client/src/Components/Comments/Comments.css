@@ -1,0 +1,43 @@
+.form-group-comments {
+    display: flex; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.form-group-comments-one {
+    flex: 75%;
+}
+
+.form-group-comments-two {
+    flex: 25%;
+}
+
+.commentSection1 {
+    display: flex; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.adorableimage {
+    margin: 0.5em;
+    flex: 10%;
+}
+
+.messageClass {
+    background-color: lightcyan;
+    padding: 10px;
+    margin : 0.5em;
+    flex: 90%;
+}
+
+.text-muted-Comment{
+    padding: 10px; 
+    
+}
+
+.someSpace {
+    padding: 100px; 
+    margin: 5px;
+    background-color: rgb(40, 40, 143);
+}
+

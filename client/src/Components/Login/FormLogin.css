@@ -1,0 +1,59 @@
+.form {
+    /* background-color: #DCEDC8; */
+    /* background-color: rgb(228, 233, 238); */
+    background-color: rgb(1, 87, 155);
+    box-shadow: 0.08em 0.2em 0.5em rgb(90, 90, 90);
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.formlogin  {
+    /* background-color: rgba(17, 17, 17, 0.562); */
+    /* color: rgb(255, 141, 96); */
+    width: 24em;
+    margin: 5% auto;
+    border-radius: 0.15em;
+    padding: 2em 3em;
+}
+
+#tvEmail,
+#tvPassword {
+    border-radius: 0.3em;
+    background-color: transparent;
+    border: 0.15em solid #F9FBE7;
+    padding: 1.3em;
+    color: #F9FBE7;
+}
+
+#btnRegister,
+#btnLogin,
+#tvEmail,
+#tvPassword {
+    transition: all 0.3s;
+}
+
+#btnRegister:hover,
+#btnLogin:hover {
+    transform: scale(1.01);
+}
+
+#tvEmail:focus,
+#tvPassword:focus {
+    border-bottom: 0.2em solid rgb(22, 255, 146);
+}
+
+.test {
+    background-color: rgb(1, 87, 155);
+    color: #F9FBE7;
+    padding: 0em 0.4em;
+    position: absolute;
+    transform: scale(0.84);
+    transform-origin: -50em -4em;
+    display: inline;
+    border-radius: 0.35em;
+}
+
+input::placeholder {
+    color: #F9FBE7;
+}

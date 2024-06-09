@@ -1,0 +1,55 @@
+.editIssue {
+  /* background-color: rgba(17, 17, 17, 0.562); */
+  text-align: center;
+  /* color: rgb(255, 141, 96); */
+  width: 50%;
+  /* margin: 12% 10%; */
+  margin: 5% auto;
+  /* border: 1px dashed slateblue; */
+  border-radius: 1em;
+  padding: 2vw 3vw;
+  /* box-shadow: 0.5vw 0.5vw 1vw rgb(5, 5, 5); */
+}
+
+/* HIDE RADIO */
+[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + img {
+  border-radius: 1.8em;
+  cursor: pointer;
+  padding: 2mm;
+  width: 12vw;
+  height: 12vw;
+  border: 2mm solid black;
+  margin: 1vw;
+  transition: all 0.4s;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + img {
+  border: 2px solid #f00;
+}
+
+#textbox {
+  width: 90%;
+  height: 20vw;
+  border: 0.15vw solid maroon;
+}
+
+#btnRegister,
+#btnLogin,
+#tvEmail,
+#tvPassword {
+  transition: all 0.5s;
+}
+
+#btnRegister:hover,
+#btnLogin:hover {
+  transform: scale(1.1);
+}

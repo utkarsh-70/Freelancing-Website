@@ -1,0 +1,99 @@
+.cardxRoot {
+    margin: 0.7em 5vw;
+    /* background-color: #66BB6A; */
+    background-color: rgb(133, 168, 212);
+    /* background-color: rgb(243, 230, 188); */
+    color: #202020;
+    border-radius: 0.25em;
+    margin-bottom: 1vh;
+    /* box-shadow: 0.02em 0.04em 0.25em rgb(5, 5, 5); */
+    transition: all 0.5s;
+}
+
+.cardxRoot:hover {
+    /* background-color: lightgreen; */
+    background-color: rgb(76, 130, 206);
+    color: white;
+    transform: scale(1.01);
+}
+
+.cardxHeader {
+    padding: 1em;
+    margin:0;
+    display: block;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.cardxHeader:hover {
+    text-decoration:none;
+}
+
+.cardxContent {
+    vertical-align: top;
+    text-align: start;
+}
+
+.cardxContent p {
+    font-size: 1em;
+}
+
+.detailsTable {
+    margin-bottom: 0.5em;
+}
+
+.detailsTable th,
+.detailsTable td{
+    vertical-align: top;
+    min-width: 10vw;
+    padding: 0.1vw;
+    max-height: 2vh;
+    overflow: hidden;
+}
+
+.detailsTable td {
+    padding-left: 0vw;
+    min-width: 7vw;
+}
+
+.cardxBody {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0;
+    padding-bottom: 1.5vh;
+    min-height: 14em;
+}
+
+#controls {
+    float: right;
+}
+
+.control {
+    margin: 0.3em;
+    padding: 0.3em;
+    border: 1px solid black;
+    border-radius: 0.25em;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: all 0.4s;
+}
+
+.control:hover {
+    transform: scale(1.1);
+}
+
+.control img {
+    margin-right: 0.5em;
+    height: 1.8em;
+    width: 1.8em;
+}
+
+.rajphoto {
+    float : right;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}

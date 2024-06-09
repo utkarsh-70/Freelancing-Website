@@ -1,0 +1,31 @@
+#divid{
+    padding:1%;
+}
+#f1{
+    padding: 2%;
+    /* margin:10%; */
+    /* border-radius:8em; */
+    width: 14vw
+}
+#colid{
+    justify-content: center;
+}
+
+.profile-image 
+{
+    height: 200px;
+    width: 200px;
+    border-Radius: 0.5em;
+}
+
+.reviewContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2vw;
+}
+
+#reviewTable td,
+#reviewTable th{
+    min-width: 5vw;
+}

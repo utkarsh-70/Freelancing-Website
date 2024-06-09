@@ -1,0 +1,13 @@
+#freelanRegRoot {
+    text-align: center;
+    /* color: lime; */
+    /* height: 30vh; */
+    margin: 1% auto;
+    /* border: 1px dashed slateblue; */
+    border-radius: 0.25em;
+    padding: 2.2vh 2.2vw;
+}
+
+.skills {
+    margin: 0.5em;
+}

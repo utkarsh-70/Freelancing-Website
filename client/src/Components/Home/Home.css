@@ -1,0 +1,62 @@
+#headerPanel {
+    color: #1A237E;
+    /* background-color: #42A5F5; */
+    border-radius: 0.25em;
+    /* padding: 1%; */
+    justify-content: center;
+    margin: 1%;
+    font-weight: bold;
+    /* box-shadow: 0.08em 0.2em 0.5em rgb(5, 5, 5); */
+}
+
+#infoLoginPanel {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#loginSection,
+#infoSection {
+    margin: 1%;
+}
+
+#quoteTop {
+    transform: translate(-0.7em);
+}
+
+#quoteBottom {
+    transform: translate(0.5em);
+}
+
+#infoSection {
+    width: 40%;
+    height: 25vw;
+    padding: 1%;
+    /* border: 1px dashed grey; */
+    border-radius: 0.25em;
+    /* background-color: rgba(17, 17, 17, 0.562); */
+    background-color: transparent;
+    /* box-shadow: 0.08em 0.2em 0.5em rgb(5, 5, 5); */
+}
+
+#statisicsPanel {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-flow: wrap; */
+    padding: 0.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeCard {
+    background-color: rgb(223, 217, 195);
+    border-radius: 0.3em;
+    padding: 2em;
+    margin: 2%;
+    min-height: 10em;
+    width: 15em;
+    box-shadow: 0.08em 0.2em 0.5em rgb(95, 95, 95);
+}

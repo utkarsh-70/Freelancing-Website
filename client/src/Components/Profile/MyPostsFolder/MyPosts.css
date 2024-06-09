@@ -1,0 +1,11 @@
+#issues {
+    background-color: whitesmoke;
+    border-radius: 0.5vw;
+    padding: 2vw;
+    transition: all 0.4s;
+}
+
+#issues:hover {
+    background-color: aquamarine;
+    transform: scale(1.01);
+}

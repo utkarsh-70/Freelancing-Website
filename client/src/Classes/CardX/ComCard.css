@@ -1,0 +1,29 @@
+#comControls {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+}
+
+#comment {
+    text-align: left;
+}
+
+.cardxRoot1 {
+    margin: 0.7em 1vw;
+    /* background-color: #66BB6A; */
+    background-color: rgb(133, 168, 212);
+    /* background-color: rgb(243, 230, 188); */
+    color: #202020;
+    border-radius: 0.25em;
+    margin-bottom: 1vh;
+    /* box-shadow: 0.02em 0.04em 0.25em rgb(5, 5, 5); */
+    transition: all 0.5s;
+}
+
+.cardxRoot1:hover {
+    /* background-color: lightgreen; */
+    background-color: rgb(3, 59, 107);
+    color: whitesmoke;
+    transform: scale(1.01);
+}
+

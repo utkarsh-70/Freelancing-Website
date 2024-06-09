@@ -1,0 +1,17 @@
+#spFeedHeading {
+    padding: 0.8em;
+    padding-bottom: 0em;
+}
+
+#spFeedRoot {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.cardWrapper {
+    flex-basis: 25%;
+    margin: 0;
+    width: 33%;
+}

@@ -1,0 +1,74 @@
+.container {
+    margin: 1vw;
+    justify-content: center;
+    padding: 4%;
+    padding-top: 0;
+    margin-top: 0;
+    border-radius: 0.25em;
+    margin-right: 0.2vw;
+}
+
+#element {
+    background-color: whitesmoke;
+    border-radius: 0.25em;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    transition: all 0.4s;
+}
+
+#element:hover {
+    background-color: lightgreen;
+    transform: scale(1.008);
+}
+
+#containerTitle {
+    color: yellow;
+}
+
+#adminTabs {
+    margin: 1.5vw;
+}
+
+#btnLog {
+    margin: 1vw;
+}
+
+#adminStatistics {
+    margin-top: 2em;
+}
+
+.loadingIcon {
+    width: 6em;
+    height: 6em;
+    padding: 0.5em;
+    margin: 1em;
+    /* position: absolute;
+    top: 50%;
+    left: 46%;
+    margin-left: -(6/2)u;
+    margin-top: -(6/2)u; */
+}
+
+.small {
+    border: none;
+    float: right;
+}
+
+hr {
+    border-width: 0.15em;
+}
+
+.vr {
+    border: 0.05em solid lightgray;
+}
+
+.searchbar {
+    margin-bottom: 1em;
+    background-color: transparent;
+    outline: none;
+    border: 0em;
+    border-bottom: 0.1em solid black;
+    border-radius: 0.3em;
+}
